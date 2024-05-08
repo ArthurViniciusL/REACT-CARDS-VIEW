@@ -1,0 +1,19 @@
+.btn-load-posts {
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #3c87e9;
+
+    cursor: pointer;
+
+}
+
+.btn-load-posts:disabled {
+    background-color: #e4e4e4;
+    color: black;
+    cursor: not-allowed;
+}
